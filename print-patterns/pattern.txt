@@ -1,0 +1,93 @@
+Q1. Print pattern.
+    ******
+    ******
+    ******
+   input: enter no. of rows and column.
+Q2. Print pattern.
+    ******
+    *    *
+    *    *
+    ******
+    Hollow rectangle pattern
+    Input:enter no. of rows and column.
+Q3. Print pattern.
+    *
+    **
+    ***
+    ****
+Q3-1. Print pattern.
+    *****
+     ****
+      ***
+       **
+        *
+Q4. Print pattern.
+    ****
+    ***
+    **
+    *
+Q4-1. print pattern.
+       *
+      **
+     ***
+    ****
+
+Q5. Print pattern.
+       *
+      ***
+     *****
+    *******
+Q6. Print pattern.
+    1234567
+    2345671
+    3456712
+    4567123
+    5671234
+    6712345
+    7123456
+Q7. Print pattern.
+    123456
+    123456
+    123456
+    123456
+Q8. Print pattern
+    121212
+    212121
+    121212
+    212121
+Q9. Print pattern.
+    123456
+    1    6
+    1    6
+    123456
+Q10. Print pattern.
+    1
+    12
+    123
+    1234
+Q11. Print pattern.
+       1
+      121
+     12321
+    1234321
+Q12. Print pattern.
+       1
+      2 2
+     3   3
+    4444444
+Q13. Print pattern.
+    *   *
+     * *
+      *
+     * *
+    *   *
+Q14. Write a program to print alphabet diamond pattern:
+    A
+    ABC
+    ABCDE
+    ABCDEFG
+    ABCDEFGHI
+    ABCDEFG
+    ABCDE
+    ABC
+    A

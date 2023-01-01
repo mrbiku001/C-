@@ -1,0 +1,46 @@
+---------------------------------------======PWSkills Assignment-4=========-----------------------------------------	
+Q1 - Write a program to calculate the factorial of a number.
+	Explanation : Factorial of any number n is represented by n! and is equal to 1*2*3*....*(n-1)*n.
+	E.g.-
+	4! = 1*2*3*4 = 24
+	3! = 3*2*1 = 6
+	Also,
+	1! = 1
+	0! = 0
+Q2 - Write a program to print all Armstrong numbers between 100 to 500.
+	Explanation : A three digit number is called the Armstrong number if the sum of the cube of its digit is equal to
+	the number itself.
+	E.g.- 153 is an Armstrong number because (13)+(53)+(33) = 153.
+	Sample Input : Already mentioned (100 to 500)
+	Sample Output :
+	0
+	1
+	153
+	370
+	371
+	407
+Q3 - Write a program to find the sum of n natural numbers.
+	Sample Input : 5
+	Sample Output : 15
+Q4 - Write a program to reverse a given integer number.
+	Sample Input : 538
+	Sample Output : 835
+
+Q5 - Write a program to print the cross pattern given below (in the shape of X): (Medium)
+	*   *
+	 * *
+	  *
+	 * *
+	*   *
+
+Q6- Write a program to print alphabet diamond pattern:
+	A
+	ABC
+	ABCDE
+	ABCDEFG
+	ABCDEFGHI
+	ABCDEFG
+	ABCDE
+	ABC
+	A
+
