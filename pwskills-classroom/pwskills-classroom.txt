@@ -1,0 +1,25 @@
+---------------------------------------======PWSkills-classroom=========-----------------------------------------
+Q1. Count the number of digit in given number n.
+    Input: 12345
+    Output:5
+Q2. Find the sum of digits in given no. n.
+    Input: 12345
+    Output: 15
+Q3. Reverse the digit of a number.
+    Input: 12345
+    Output:54321
+Q4. find the sum of the following series.
+    1-2+3-4......n
+Q5. enter 2 number a and b and calculate a^b.
+    Input: 2 & 3
+    Output: 8
+Q6. Print nth factorial no.
+    Input: 3
+    Output: 3!=6
+---->>print pattern<<--
+Q7. Converting Binary to Decimal
+    Input:8
+    Output:100
+Q8. Converting Decimal to Binary.
+    Input:4
+    Output:100
