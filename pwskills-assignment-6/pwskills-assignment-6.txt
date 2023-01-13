@@ -1,0 +1,18 @@
+---------------------------------------======PWSkills Assignment-6=========-----------------------------------------
+Q1 - Write a function to print squares of the first 5 natural numbers.(Easy)
+    Sample Output: 1 4 9 16 25
+Q2 - Given radius of a circle. Write a function to print the area and circumference of the circle.(Easy)
+    Sample Input: r=3
+    Sample Output: Area : 28.26
+            Circumference : 18.84
+Q3 - Given the age of a person, write a function to check if the person is eligible to vote or not.(Easy)
+    Sample Input: 19
+    Sample Output: Yes
+    Sample Input: 17
+    Sample Output: No
+Q4 - Given two numbers a and b, write a program using functions to print all the odd numbers between them.(Medium)
+    Sample Input: 1 10
+    Sample Output: 1 3 5 7 9
+Q5 - Given two numbers a and b, write a program to print all the prime numbers present between a and b.(Hard)
+    Sample Input: 2 10
+    Sample Output: 2 3 5 7

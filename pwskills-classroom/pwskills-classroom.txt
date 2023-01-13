@@ -23,3 +23,7 @@ Q7. Converting Binary to Decimal
 Q8. Converting Decimal to Binary.
     Input:4
     Output:100
+--->Array Problems
+Q9. Calculate the sum of all the element in the given array.
+Q10. Find the max. value out of all the elements in the array.
+Q11. Search of the given element id present in the array or not and find the index. if not present then return the index as -1 (Linear search). 
