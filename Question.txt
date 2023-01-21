@@ -1,5 +1,4 @@
 ---------------------------------------======PWSkills Assignment-1=========-----------------------------------------
-
 Q1 - Take 2 integer values in two variables x and y and print their product. (Easy)
 	Sample Input : x=2, y=4 (Both integers)
 	Sample Output : 8
@@ -126,14 +125,12 @@ Q3 - Write a program to find the sum of n natural numbers.
 Q4 - Write a program to reverse a given integer number.
 	Sample Input : 538
 	Sample Output : 835
-
 Q5 - Write a program to print the cross pattern given below (in the shape of X): (Medium)
 	*   *
 	 * *
 	  *
 	 * *
 	*   *
-
 Q6- Write a program to print alphabet diamond pattern:
 	A
 	ABC
@@ -144,4 +141,235 @@ Q6- Write a program to print alphabet diamond pattern:
 	ABCDE
 	ABC
 	A
+	---------------------------------------======PWSkills Assignment-5=========-----------------------------------------	
+Q1 - Print the sum of the first 5 decimal numbers from 1 to 5 in binary format.(Easy)
+    Sample Input: 1,2,3,4,5
+    Sample Output: 1111
+Q2 - Given a natural number, find the number of 0’s in the binary representation of that number.(Medium)
+    Note: Don’t count the preceding zeros.
+    For example: 001001 has 2 zeros as the first two zeros from left are preceding zeros.
+    Sample Input:9
+    Sample Output: 2
+    Explanation: As the binary representation of 9 is 1001
+    Sample Input: 6
+    Sample Output: 1
+    Explanation: As the binary representation of 6 is 0110
+Q3 - Given two binary numbers, return the greatest of these numbers in decimal format.(Easy)
+    Sample Input: 1001 and 0100
+    Sample Output: 9
+---------------------------------------======PWSkills Assignment-6=========-----------------------------------------
+Q1 - Write a function to print squares of the first 5 natural numbers.(Easy)
+    Sample Output: 1 4 9 16 25
+Q2 - Given radius of a circle. Write a function to print the area and circumference of the circle.(Easy)
+    Sample Input: r=3
+    Sample Output: Area : 28.26
+            Circumference : 18.84
+Q3 - Given the age of a person, write a function to check if the person is eligible to vote or not.(Easy)
+    Sample Input: 19
+    Sample Output: Yes
+    Sample Input: 17
+    Sample Output: No
+Q4 - Given two numbers a and b, write a program using functions to print all the odd numbers between them.(Medium)
+    Sample Input: 1 10
+    Sample Output: 1 3 5 7 9
+Q5 - Given two numbers a and b, write a program to print all the prime numbers present between a and b.(Hard)
+    Sample Input: 2 10
+    Sample Output: 2 3 5 7
+---------------------------------------======PWSkills Assignment-7=========-----------------------------------------
+Q1 - Given an integer array(arr) and its size(n), print the count of odd and even integers present in the array. 
+    For ex: arr[]={1,2,3,4,5} n=5 
+    Output: Odd Numbers = 3 Even Numbers = 2
+    Explanation: The even numbers present in the array are 2,4 and the odd numbers present in the array
+    are 1,3 and 5.
+Q2 - Given an integer array and its size, find the sum of the greatest and the smallest integer present in the array. 
+    Here 1< size <101 
+    For ex: arr[]={1,2,3,4,5} n=5 
+    Output: 6 
+    Explanation: The smallest number in the array is 1 and the greatest numbers in the array is 5, so the sum
+    will be 1+5=6
+Q3 - Given an integer array and its size, reverse the array and print it . Here 1<size<101 .
+    For ex: arr[]={1,2,3,4,5} n=5 
+    Output: 5,4,3,2,1
+    arr[]={1,1,1,1,1] n=5
+    Output: 1,1,1,1,1
+Q4 - Given two arrays a[] and b[] of same size.Your task is to find the minimum sum of two elements such that they belong to different arrays and are not at the same index. Here 1<size<101
+    For ex: a[]={5,6,10,4,9} b[]={1,2,3,4,5}
+    Output: 5 
+    Explanation: a[3] + b[0] = 5 is the lowest possible sum amongst all the possible combinations a[3] + b[0] = 5 is the lowest possible sum amongst all the possible combinations
+Q5 - Given an array containing n distinct integers in the range [0,n] (inclusive of both 0 and n) (inclusive of both 0 and n). Find and return the only number of the range that is not present in the array. Here 1<n<101.
+    Ex: arr=[3,0,1] Output: 2
+    n=3, thus the range will be [0,3]
+    Ex: arr=[8,6,4,2,3,5,0,1] Output: 7
+    n=8, thus the range will be [0,8]
+Q6 - Given an integer array containing n elements. Find the element in the array for which all the elements to its left are smaller than it and all the elements to the right of it are larger than it. Here 1<n<101.
+    Ex: arr=[1,6,5,7,10,8,9] Output: 7
+    Explanation: Here all the elements to the left of 7 are smaller than it and all the elements to the right of it are greater than it.
+    Ex: arr=[5,6,2,8,10,9] Output: -1
+    Explanation: Here there is no element in the array which satisfies the given condition.
+---------------------------------------======PWSkills Assignment-8=========-----------------------------------------
+Q1 - Given two vectors arr1[] and arr2[] of size m and n sorted in increasing order. Merge the two arrays into a single sorted array of size m+n.(Easy)
+    Input:arr1=[1,2,3] arr2=[4,5,6]
+    Output:arr=[1,2,3,4,5,6]
+    Input:arr1=[1,3,5] arr2=[2,4,6]
+    Output:arr=[1,2,3,4,5,6]
+Q2 - Given a vector arr[] sorted in increasing order of n size and an integer x, find if there exists a pair in the array whose sum is exactly x.(Easy)
+    Given: n>0
+    Input:[-1,0,1,2,3] x=2
+    Output:Yes
+    Input:[1,2,3,4] x=9
+    Output:No
+Q3 - Given a vector arr[] sorted in increasing order of n size and an integer x, find if there exists a pair in the array whose absolute difference is exactly x.(Medium)
+    Given: n>0
+    Input:[5,10,15,20,26] x= 10
+    Output:Yes
+    Input:[5,6,7,8,9] x=4
+    Output:Yes
+    Input:[9,23,45,69,78] x=56
+    Output:No
+Q4 - Given a vector arr[] sorted in increasing order. Return an array of squares of each number sorted in increasing order. Where size of vector 1<size<101.(Medium)
+    Input:[0,1,2,3]
+    Output:[0,1,4,9]
+    Input:[-5,-4,-3,-2,-1]
+    Output:[1,4,9,16,25]
+    Input:[-4,-3,-1,0,2,10]
+    Output:[0,2,4,9,16,100]
+Q5 - Given a vector arr[] sorted in increasing order of n size and an integer x, find the number of unique pairs that exist in the array whose absolute sum is exactly x.(Hard)
+    Input:[1,2,3,4,6] x=7
+    Output:2
+    Explanation:1,6 and 3,4 sum to 7
+    Input:[3,1,3,5,3] x=6
+    Output:2
+    Explanation:The unique pairs are 3,3 and 1,5
+    Input:[2,2,2] x=4
+    Output:1
+    Explanation:The only unique pair is 2,2
+Q6 - Given a vector array nums, print the count of triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == x. Where k is an integer given by the user.(Hard)
+    Note: The solution set must not contain duplicate triplets and should not have 3 loops.
+    Input:[-1,0,1,2,-1,-4] x=0
+    Output:2
+    Explanation:The two triplets are: -1,0,1 and 1,2,-1
+    Input:[1,2,3] x=5
+    Output:0
+---------------------------------------======PWSkills-classroom=========-----------------------------------------
+Q1. Count the number of digit in given number n.
+    Input: 12345
+    Output:5
+Q2. Find the sum of digits in given no. n.
+    Input: 12345
+    Output: 15
+Q3. Reverse the digit of a number.
+    Input: 12345
+    Output:54321
+Q4. find the sum of the following series.
+    1-2+3-4......n
+Q5. enter 2 number a and b and calculate a^b.
+    Input: 2 & 3
+    Output: 8
+Q6. Print nth factorial no.
+    Input: 3
+    Output: 3!=6
+---->>print pattern<<--
+Q7. Converting Binary to Decimal
+    Input:8
+    Output:100
+Q8. Converting Decimal to Binary.
+    Input:4
+    Output:100
+--->Array Problems
+Q9. Calculate the sum of all the element in the given array.
+Q10. Find the max. value out of all the elements in the array.
+Q11. Search of the given element id present in the array or not and find the index. if not present then return the index as -1 (Linear search).
+---------------------------------------======print-patterns=========-----------------------------------------
+Q1. Print pattern.
+    ******
+    ******
+    ******
+   input: enter no. of rows and column.
+Q2. Print pattern.
+    ******
+    *    *
+    *    *
+    ******
+    Hollow rectangle pattern
+    Input:enter no. of rows and column.
+Q3. Print pattern.
+    *
+    **
+    ***
+    ****
+Q3-1. Print pattern.
+    *****
+     ****
+      ***
+       **
+        *
+Q4. Print pattern.
+    ****
+    ***
+    **
+    *
+Q4-1. print pattern.
+       *
+      **
+     ***
+    ****
 
+Q5. Print pattern.
+       *
+      ***
+     *****
+    *******
+Q6. Print pattern.
+    1234567
+    2345671
+    3456712
+    4567123
+    5671234
+    6712345
+    7123456
+Q7. Print pattern.
+    123456
+    123456
+    123456
+    123456
+Q8. Print pattern
+    121212
+    212121
+    121212
+    212121
+Q9. Print pattern.
+    123456
+    1    6
+    1    6
+    123456
+Q10. Print pattern.
+    1
+    12
+    123
+    1234
+Q11. Print pattern.
+       1
+      121
+     12321
+    1234321
+Q12. Print pattern.
+       1
+      2 2
+     3   3
+    4444444
+Q13. Print pattern.
+    *   *
+     * *
+      *
+     * *
+    *   *
+Q14. Write a program to print alphabet diamond pattern:
+    A
+    ABC
+    ABCDE
+    ABCDEFG
+    ABCDEFGHI
+    ABCDEFG
+    ABCDE
+    ABC
+    A
