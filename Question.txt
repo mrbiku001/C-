@@ -250,6 +250,82 @@ Q6 - Given a vector array nums, print the count of triplets [nums[i], nums[j], n
     Explanation:The two triplets are: -1,0,1 and 1,2,-1
     Input:[1,2,3] x=5
     Output:0
+---------------------------------------======PWSkills Assignment-9=========-----------------------------------------
+Q1 - Given an integer array and two integers L and R. Find the sum of elements between the index L and index R.(Medium)
+    Note: Both L and R inclusive.
+    Input: [1,2,3,4,5] L=1 R=3
+    Output:9
+    Explanation:2+3+4=9
+    Input:[1,2,3,4,5] L=2 R=2
+    Output: 3
+    Explanation:3
+Q2 - ​There is a man going on a trek. The trek consists of n + 1 points at different altitudes. The man starts his trek on point 0 with altitude equal 0.You are given an integer array height of length n where height[i] is the net height in altitude between points i​ and i + 1 for all (0 <= i < n). Return the highest altitude of a point.(Easy)
+    Input:height=[-4,1,6,0,-8]
+    Output:3
+    Explanation:The man starts at 0 and since then the altitudes covered will be [0, 4, 3,3,3, 5] so the greatest altitude will be 3
+    Input:height=[ 5, 3, 2]
+    Output:0
+    Explanation:The man starts at 0 and since then the altitudes will be[0, 5, 3, 2] so the greatest altitude will be 0.
+Q3 - ​Given an integer array arr consisting of 0’s and 1’s only, return the max length of sequence which contains equal numbers of 0 and 1.(Medium)
+    Input:arr=[0,1,0,1]
+    Output:4
+    Explanation:The longest sequence is 0,1,0,1
+    Input:arr=[0,1,1,0,1,1,1]
+    Output:4
+    Explanation:The longest sequence is 0,1,1,0
+Q4 - ​Given an integer array arr, return the number of consecutive sequences(subarrays) with odd sum.(Hard)
+    Input:[1,3,5]
+    Output:4
+    Explanation:These sequences are [1],[3],[5] and [1,3,5]
+    Input:[0,2,4]
+    Output:0
+Q5 - Given an integer array arr, return an array ans such that ans[i] is equal to the product of all the elements of arr except arr[i].(Hard)
+    Input: arr=[1,3,5,7]
+    Output: [105,35,21,15]
+    Explanation: ans=[3*5*7,1*5*7,1*3*7,1*3*5]
+    Input: [-5,-4,0,4,5]
+    Output: [0,0,400,0,0]
+Q6 - ​Given an array of size ‘n’ (initially zero) and ‘q’ number of updates where in each update we can increase the value of all index from index l to index r with value x and in the end print all the numbers of the array.(Medium)
+    Input:q = 3, x = 5, n = 5
+    [l,r] = {{0,3}, {4,4}, {1,2}
+    Output: [5 10 10 5 5]
+---------------------------------------======PWSkills Assignment-10=========-----------------------------------------
+Q1 - Given a 2D matrix with m rows and n columns containing integers, find and print the maximum value present in the array.(Easy)
+    m=3
+    n=3
+    arr[] = {{1,2,3}, {4,5,6}, {7,8,9}}
+    Output: 9
+
+Q2 - You are given a n*n square matrix, you need to rotate the matrix by 90 degrees in clockwise direction. You need to do it in-place i.e. you are not allowed to make a new matrix and allocate the elements to it. Make the changes in the same matrix and print it.(Medium)
+    n=3
+    arr[] = {{1,2,3}, {4,5,6}, {7,8,9}}
+    Output: {{7,4,1},{8,5,2},{9,6,3}}
+
+Q3 - Given a m*n integer matrix. If an element of the matrix is 0 then set the complete row and column of that element to 0. Make the changes inplace and print the matrix.(Hard)
+    m=3
+    n=3
+    arr[]={{1,2,3},{1,0,1},{5,6,7}}
+    Output: {{1,0,3},{0,0,0},{5,0,7}}
+    arr[]={{0,1,2,0},{3,4,5,2},{1,3,1,5}}
+    Output:{{0,0,0,0},{0,4,5,0},{0,3,1,0}
+---------------------------------------======PWSkills Assignment-11=========-----------------------------------------
+Q1. Given a m*n matrix, Write a function which returns true if the matrix is a perfect matrix. A matrix is called perfect if every diagonal from top-left to bottom-right has the same elements. (Easy)
+    Sample Input: arr[]=[[9,8,7,6],[5,9,8,7],[1,5,9,8]]
+    
+    9 8 7 6
+    5 9 8 7
+    1 5 9 8
+    
+    Sample Output: true
+Q2. Given an array of intervals where intervals[i] = [start, end], merge all overlapping intervals, and create a function which returns a vector of the non-overlapping intervals that cover all the intervals in the input.(Hard)
+    Sample Input: arr[]=[[1,4],[2,3],[5,8],[6,9]] Sample Output: [[1,4],[5,9]]
+    Sample Input: arr[]=[[1,5],[3,9]] Sample Output: [1,9]
+Q3. Given an array of intervals where arr[i] = [start, end], return the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
+    Sample Input: arr[]=[[1,4],[2,3],[4,5],[6,7]] Sample Output: 1
+    Explanation: The interval 1,4 and 2,3 are overlapping so removing any one of them will make the intervals non overlapping.
+    Sample Input: arr[]=[[1,2],[2,3],[3,4],[4,5]]
+    Sample Output: 0
+
 ---------------------------------------======PWSkills-classroom=========-----------------------------------------
 Q1. Count the number of digit in given number n.
     Input: 12345
@@ -278,7 +354,98 @@ Q8. Converting Decimal to Binary.
 --->Array Problems
 Q9. Calculate the sum of all the element in the given array.
 Q10. Find the max. value out of all the elements in the array.
-Q11. Search of the given element id present in the array or not and find the index. if not present then return the index as -1 (Linear search).
+Q11. Search of the given element id present in the array or not and find the index. if not present then return the index as -1 (Linear search). 
+Q12. Find the last occurrence of an element x in a given array.
+    Exp: traverse through the whole vector and compare the current element with the target element 'x' and if it maches then it will be out last seen index.
+Q13. Count the number of occurrences of a particular element x.
+Q14. Count the no. of element strictly greater than x.
+Q15. Check if the give array is shorted or not.
+Q16. Find the difference between the sum of elements at even indices to the sum of elements at off indices.
+Q17. Find the total number of pairs in the array whose sum is equal to the given value x.
+Q18. Count the number of triplets whose sum is equal to a given value x.
+Q19. Find the unique no. in a given array where all the elements are repeated twice with one value being unique.
+Q20. Find the second largest value in a given array.
+Q21. Rotate the given array 'v' by k steps, where k is non-negative.
+Q22. Foe Q inputs, check of the given no. is present in the array or not.
+    Note:-value of all the array is less than 10^5
+----->>>Problem in array- Two pointers
+Q23. Short an array containing only 0's and 1's.
+    Input:[1,0,1,0,0,1]
+    Output:[0,0,0,1,1,1]
+Q24. Given an array of integer 'a', move all the even integers at the begnning of the array followed by all the odd integers. The relative order of odd or even integer does not matter. Return any array that satisfies the condition.
+    Input:[1,2,3,4,5]
+    Output:[4,2,3,1,5]
+Q25. Given an integer array 'a' shorted in non-decreasing order, return an array of the squares of each number shorted in non-decreasing/increasing prder.
+    Input:[-10,-3,2,5,6]
+    Output:[4,9,25,36,100]
+--->>>Prefix Sum
+Q26. Given an integer 'a', return the prefix sum/running sum in the same array without creating a new array.
+    Input:[5,4,1,2,3]
+    Output:[5,9,10,12,15]
+Q27. Check if we can partion an input array into two subarrays with equal sum. More formally, check that the prefix sum of a part of the array is equal to the suffix sum of the rest of the array.
+    Input:[5,2,3,4]
+    Output:True
+Q28. Given an array of integer 'a', of size n. For q number of inputs, print the sum of values in a given range of indices from l(starting index for the range) to r(ending index for the range), both l and r included in the sum.
+    more formally, print a[l]+a[l+1]+a[l+2]+.....+a[r] for each q.
+    Note: Array 'a' follows 1-based indexing i.e. element 1 is at index 1 and not 0, as usually is.
+    Input: 5 //no. of element in array.
+        5 1 2 3 4 //all the elements (space seprated)
+        4 //value of Q
+        1 1 //l and r for the 1st q, q=1
+        1 3 //l and r for the 2st q, q=2
+        4 5 //l and r for the 3st q, q=3
+        1 5 //l and r for the 4st q, q=4
+    Output: 
+    5 //sum from a[1] to a[1] i.e. 5 itself
+    8 //sum from a[1] to a[3] i.e. 5+1+2=8
+    7 //sum from a[4] to a[5] i.e. 4+3=7
+    15 //sum from a[1] to a[5] i.e. 5+1+2+3+4=15
+--->>>loop revision
+Q29. WAP to print alphabet diamond pattern.
+    A
+   ABC
+  ABCDE
+ ABCDEFG
+ABCHEFGHI
+ ABCDEFG
+  ABCDE
+   ABC
+    A
+Q30. WAP to print plus pattern.
+      *
+      *
+    *****
+      *
+      *
+    Note:- input is always odd and also should be greater then or equal to 3
+--->>>2D Arrays
+Q31. WAP to display multiplication of two matrices entered by user.
+    Input:
+    enter the no. of rows=3
+    enter the no. of column=3
+    enter the first matrix elements=
+    1 2 3 4 5 6 7 8 9
+    enter the second matrix elements=
+    1 2 3 4 5 6 7 8 9
+    Output:
+    multiply of the matrix=
+    30 36 42 
+    66 81 96 
+    102 126 150
+Q32. WAP to print the transpose of the matrix entered by the user.
+    Input:
+    row = 3
+    col = 3
+    arr[]={{1,2,3},{4,5,6},{7,8,9}}
+    Output: 1 4 7 2 5 8 3 6 9
+--pascal's triangle
+Q33. Given an integer n, return the first n rows of pascal's triangle.
+    Ex:1
+    Input: n=5
+    Output:[[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+    Ex:2
+    Input: n=1
+    Output:[[1]]
 ---------------------------------------======print-patterns=========-----------------------------------------
 Q1. Print pattern.
     ******

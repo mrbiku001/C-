@@ -1,3 +1,80 @@
+
+---------------------------------------======PWSkills Assignment-9=========-----------------------------------------
+Q1 - Given an integer array and two integers L and R. Find the sum of elements between the index L and index R.(Medium)
+    Note: Both L and R inclusive.
+    Input: [1,2,3,4,5] L=1 R=3
+    Output:9
+    Explanation:2+3+4=9
+    Input:[1,2,3,4,5] L=2 R=2
+    Output: 3
+    Explanation:3
+Q2 - ​There is a man going on a trek. The trek consists of n + 1 points at different altitudes. The man starts his trek on point 0 with altitude equal 0.You are given an integer array height of length n where height[i] is the net height in altitude between points i​ and i + 1 for all (0 <= i < n). Return the highest altitude of a point.(Easy)
+    Input:height=[-4,1,6,0,-8]
+    Output:3
+    Explanation:The man starts at 0 and since then the altitudes covered will be [0, 4, 3,3,3, 5] so the greatest altitude will be 3
+    Input:height=[ 5, 3, 2]
+    Output:0
+    Explanation:The man starts at 0 and since then the altitudes will be[0, 5, 3, 2] so the greatest altitude will be 0.
+Q3 - ​Given an integer array arr consisting of 0’s and 1’s only, return the max length of sequence which contains equal numbers of 0 and 1.(Medium)
+    Input:arr=[0,1,0,1]
+    Output:4
+    Explanation:The longest sequence is 0,1,0,1
+    Input:arr=[0,1,1,0,1,1,1]
+    Output:4
+    Explanation:The longest sequence is 0,1,1,0
+Q4 - ​Given an integer array arr, return the number of consecutive sequences(subarrays) with odd sum.(Hard)
+    Input:[1,3,5]
+    Output:4
+    Explanation:These sequences are [1],[3],[5] and [1,3,5]
+    Input:[0,2,4]
+    Output:0
+Q5 - Given an integer array arr, return an array ans such that ans[i] is equal to the product of all the elements of arr except arr[i].(Hard)
+    Input: arr=[1,3,5,7]
+    Output: [105,35,21,15]
+    Explanation: ans=[3*5*7,1*5*7,1*3*7,1*3*5]
+    Input: [-5,-4,0,4,5]
+    Output: [0,0,400,0,0]
+Q6 - ​Given an array of size ‘n’ (initially zero) and ‘q’ number of updates where in each update we can increase the value of all index from index l to index r with value x and in the end print all the numbers of the array.(Medium)
+    Input:q = 3, x = 5, n = 5
+    [l,r] = {{0,3}, {4,4}, {1,2}
+    Output: [5 10 10 5 5]
+---------------------------------------======PWSkills Assignment-10=========-----------------------------------------
+Q1 - Given a 2D matrix with m rows and n columns containing integers, find and print the maximum value present in the array.(Easy)
+    m=3
+    n=3
+    arr[] = {{1,2,3}, {4,5,6}, {7,8,9}}
+    Output: 9
+
+Q2 - You are given a n*n square matrix, you need to rotate the matrix by 90 degrees in clockwise direction. You need to do it in-place i.e. you are not allowed to make a new matrix and allocate the elements to it. Make the changes in the same matrix and print it.(Medium)
+    n=3
+    arr[] = {{1,2,3}, {4,5,6}, {7,8,9}}
+    Output: {{7,4,1},{8,5,2},{9,6,3}}
+
+Q3 - Given a m*n integer matrix. If an element of the matrix is 0 then set the complete row and column of that element to 0. Make the changes inplace and print the matrix.(Hard)
+    m=3
+    n=3
+    arr[]={{1,2,3},{1,0,1},{5,6,7}}
+    Output: {{1,0,3},{0,0,0},{5,0,7}}
+    arr[]={{0,1,2,0},{3,4,5,2},{1,3,1,5}}
+    Output:{{0,0,0,0},{0,4,5,0},{0,3,1,0}
+---------------------------------------======PWSkills Assignment-11=========-----------------------------------------
+Q1. Given a m*n matrix, Write a function which returns true if the matrix is a perfect matrix. A matrix is called perfect if every diagonal from top-left to bottom-right has the same elements. (Easy)
+    Sample Input: arr[]=[[9,8,7,6],[5,9,8,7],[1,5,9,8]]
+    
+    9 8 7 6
+    5 9 8 7
+    1 5 9 8
+    
+    Sample Output: true
+Q2. Given an array of intervals where intervals[i] = [start, end], merge all overlapping intervals, and create a function which returns a vector of the non-overlapping intervals that cover all the intervals in the input.(Hard)
+    Sample Input: arr[]=[[1,4],[2,3],[5,8],[6,9]] Sample Output: [[1,4],[5,9]]
+    Sample Input: arr[]=[[1,5],[3,9]] Sample Output: [1,9]
+Q3. Given an array of intervals where arr[i] = [start, end], return the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
+    Sample Input: arr[]=[[1,4],[2,3],[4,5],[6,7]] Sample Output: 1
+    Explanation: The interval 1,4 and 2,3 are overlapping so removing any one of them will make the intervals non overlapping.
+    Sample Input: arr[]=[[1,2],[2,3],[3,4],[4,5]]
+    Sample Output: 0
+
 ---------------------------------------======PWSkills-classroom=========-----------------------------------------
 Q1. Count the number of digit in given number n.
     Input: 12345
@@ -110,3 +187,11 @@ Q32. WAP to print the transpose of the matrix entered by the user.
     col = 3
     arr[]={{1,2,3},{4,5,6},{7,8,9}}
     Output: 1 4 7 2 5 8 3 6 9
+--pascal's triangle
+Q33. Given an integer n, return the first n rows of pascal's triangle.
+    Ex:1
+    Input: n=5
+    Output:[[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+    Ex:2
+    Input: n=1
+    Output:[[1]]
