@@ -1,3 +1,6 @@
+---------------------------------------======PWSkills Assignment-15=========-----------------------------------------
+//pointer-1
+
 Q1. Write a program to print the address of an integer variable whose value is input by the
     user.
 
