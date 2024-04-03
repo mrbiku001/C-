@@ -1,0 +1,32 @@
+Q1. Write a program to print the address of an integer variable whose value is input by the
+    user.
+
+Q2. Write a program to find the product of 2 numbers using pointers
+    Input1:
+    3 10
+    output1:
+    30
+    Input2:
+    6 80
+    Output2:
+    480
+    
+Q3. Write a function that returns the largest and the smallest number out of 3 given numbers.
+    The main function should call this function to get the largest and smallest number and print
+    the output.
+    Input: 3 4 10
+    Output: 10 3
+
+Q4. Implement the swap function using pointers.
+    Input:
+    Output:
+    35 23
+    23 35
+
+Q5. Write a function that returns the first character, last character and the number of
+    occurrences of ‘t’ in a string input by user.
+    Input:
+    Output:
+    twitter
+    t r 3
+

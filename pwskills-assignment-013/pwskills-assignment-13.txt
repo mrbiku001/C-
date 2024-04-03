@@ -1,0 +1,44 @@
+---------------------------------------======PWSkills Assignment-13=========-----------------------------------------
+
+Q1. Given a 2D matrix with m rows and n columns containing integers. Print and return the row
+    number with maximum sum in the array.
+
+    Note: In case multiple rows have the same sum then return any row number with that sum.
+    m=3
+    n=3
+    arr[] = {{1,9,6}, {4,5,2}, {7,8,3}}
+    Output: 3
+    Explanation: The 3rd row has the maximum sum which is 18
+    m=3
+    n=3
+    arr[] = {{1,2,3}, {1,3,2}, {2,1,3}}
+    Output: 1
+    Explanation: All the rows have the same sum i.e. 6 so return any row number.
+
+Q2. Given a matrix arr[][] of integers, print the prefix sum matrix for it.
+    Sample Input:[[1,2,3],[4,5,6],[7,8,9]]
+    Sample Output:[[1,3,6],[5,12,21],[12,27,45]]
+    Sample Input:[[1,0,1],[0,1,0]]
+    Sample Output:[[1,1,2],[1,2,3]]
+
+
+Q3 - You are given an m x n integer matrix grid. Here m>=3 and n>=3
+    We define an hourglass as a part of the matrix with the following shape:
+    [[A,A,A],
+    [ ,A, ],
+    [A,A,A]]
+    Return the maximum sum of the elements of an hourglass.
+    Note that an hourglass cannot be rotated and must be entirely contained within the matrix.
+    Sample Input: [[1,2,3],
+                    [4,5,6],
+                    [7,8,9]]
+    Sample Output: 35
+    Explanation: This has only one hourglass shape i.e. 1+2+3+5+7+8+9=35
+
+    Sample Input: [[6,2,1,3],
+    [4,2,1,5],
+    [9,2,8,7],
+    [4,1,2,9]]
+    Sample Output:30
+    Explanation: Amongst all possible hourglass in this matrix the maximum sum will be of the hourglass
+    6+2+1+2+9+2+8
