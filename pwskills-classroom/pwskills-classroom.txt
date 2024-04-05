@@ -199,3 +199,6 @@ Q33. Given an integer n, return the first n rows of pascal's triangle.
 >>problem in recursion
 
 Q34. WAP to find nth fibonacii series number 
+Q35. WAP to find sum of digits of number recursively.
+    ex. input 1234
+        output 10
