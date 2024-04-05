@@ -195,3 +195,7 @@ Q33. Given an integer n, return the first n rows of pascal's triangle.
     Ex:2
     Input: n=1
     Output:[[1]]
+
+>>problem in recursion
+
+Q34. WAP to find nth fibonacii series number 
