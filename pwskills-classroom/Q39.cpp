@@ -1,4 +1,4 @@
-// Q38. Print the max value of the array.
+// Q39. Print the sum value of the elements in array.
 #include <iostream>
 using namespace std;
 int rF(int *arr, int idx, int n)
