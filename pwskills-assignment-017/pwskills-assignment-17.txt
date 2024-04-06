@@ -1,0 +1,33 @@
+Q1. Given a number n, print the following pattern without using any loop.
+    n, n-5, n-10, ..., 0, 5, 10, ..., n-5, n
+    There should be 0 or at most one occurrence of negative number in the series.
+    Sample Input: n = 16
+    Sample Output: 16, 11, 6, 1, -4, 1, 6, 11, 16
+    Sample Input: n = 10
+    Sample Output: 10, 5, 0, 5, 10
+
+Q2 - Find m-th summation of first n natural numbers where m-th summation of first n natural
+    numbers is defined as following:
+    If m > 1: SUM(n, m) = SUM(SUM(n, m - 1), 1)
+    Else :SUM(n, 1) = Sum of first n natural numbers.
+    Sample Input: n = 3, m = 2
+    Sample Output: SUM(3, 2) = 21
+    Explanation : SUM(3, 2)
+    = SUM(SUM(3, 1), 1)
+    = SUM(6, 1)
+    = 21
+    Sample Input: n = 4, m = 1
+    Sample Output: SUM(4, 1) = 10
+
+Q3 - Given a number n which denotes the number of variables in the equation and a val which
+    denotes the sum of these variables, count the number of such non-negative integral solutions
+    that are possible.
+    Sample Input: n=5 val=1
+    Sample Output: 5
+    Explanation: The possible solutions are
+    0,0,0,0,1
+    0,1,0,0,0
+    0,0,0,1,0
+    0,0,1,0,0
+    0,0,0,0,1
+

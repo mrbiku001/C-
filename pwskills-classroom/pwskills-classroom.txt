@@ -212,3 +212,30 @@ Q39. Print the sum value of the elements in array.
 ....>>>>recursion on strings
 Q40. Remove all the occurrences of 'a' from strings
     s="abcax"
+Q41. WAP to check whether a given number is palindrome or not through recursion.
+
+Q42.Given a number n. Find the increasing sequence from  to n without using any loop.
+    Input n=4
+    Output 1 2 3 4
+
+    Input n=2
+    Output 1 2
+Q43. Given a number num and a value k. print k multiples of num.
+    k>0
+    Int: num=12, k=5
+    Out: 12, 24, 36, 48, 60
+    
+    Int: num = 3, k=8
+    Out: 3,6,9,12,15,18,21,24
+Q44. Given a no. n. Find the sum of natural no. till n but with alternate signs.
+    That mesns if n=5 then 1-2+3-4+5 = 3
+    Int n=10 Out -5
+    Int n=5 Out 3
+    https://www.embeddedrelated.com/showarticle/1503.php
+    https://www.embeddedrelated.com/showarticle/453.php
+    https://www.embecosm.com/articles/ear10/open-source-embedded-masterclass-2011.pdf
+
+Q45. Given Two no. x & y Find the greatest common divisior of x & y using recursion.
+    Inp1: x=4, y=9      Out1: 1
+    Inp2: x=12, y=20    Out2: 4
+    https://circuitdigest.com/electronic-circuits/12v-1a-power-supply-circuit-using-viper22a
