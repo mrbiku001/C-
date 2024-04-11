@@ -239,3 +239,9 @@ Q45. Given Two no. x & y Find the greatest common divisior of x & y using recurs
     Inp1: x=4, y=9      Out1: 1
     Inp2: x=12, y=20    Out2: 4
     https://circuitdigest.com/electronic-circuits/12v-1a-power-supply-circuit-using-viper22a
+
+Q46 Given a number n. Print if it is an armstrong number or not.
+    A armstrong number is a no. if the sum of every digit in that number raised to the power of total digits in that number is
+    equal to the number
+    Inp1: 153   Out1: Yes
+    153 = 1^3 + 5^3 +3^3
