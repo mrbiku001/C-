@@ -1,0 +1,5 @@
+Cognitive Robotics
+https://ocw.mit.edu/courses/16-412j-cognitive-robotics-spring-2016/pages/syllabus/
+
+C
+https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/lecture-notes/
